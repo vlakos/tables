@@ -1,7 +1,7 @@
 import requests
 import lxml.html as lh
 import pandas as pd
-url='http://www.acas.rs/acasPublic/pretragaPrilogaLica.htm'
+url='https://pokemondb.net/pokedex/all'
 #Create a handle, page, to handle the contents of the website
 page = requests.get(url)
 #Store the contents of the website under doc
